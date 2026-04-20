@@ -1,1 +1,172 @@
-IyBLbGFyYSdzIENvaW5iYXNlIEFQSSBIZWxwZXIKIyBVc2VzIENvaW5iYXNlIEFwcCBBUEkgKENEUCkgd2l0aCBKV1QgYXV0aGVudGljYXRpb24KCmltcG9ydCBqd3QKZnJvbSBjcnlwdG9ncmFwaHkuaGF6bWF0LnByaW1pdGl2ZXMgaW1wb3J0IHNlcmlhbGl6YXRpb24KaW1wb3J0IHRpbWUKaW1wb3J0IHNlY3JldHMKaW1wb3J0IGpzb24KaW1wb3J0IG9zCgojIENvbmZpZ3VyYXRpb24KQVBJX0tFWV9GSUxFID0gb3MucGF0aC5qb2luKG9zLnBhdGguZGlybmFtZShfX2ZpbGVfXyksICcuY29pbmJhc2UtYXBpLWtleScpCkFQSV9TRUNSRVRfRklMRSA9IG9zLnBhdGguam9pbihvcy5wYXRoLmRpcm5hbWUoX19maWxlX18pLCAnLmNvaW5iYXNlLWFwaS1zZWNyZXQnKQpCQVNFX1VSTCA9ICJhcGkuY29pbmJhc2UuY29tIgoKZGVmIF9sb2FkX2NyZWRlbnRpYWxzKCk6CiAgICAiIiJMb2FkIEFQSSBjcmVkZW50aWFscyBmcm9tIGZpbGVzIiIiCiAgICB3aXRoIG9wZW4oQVBJX0tFWV9GSUxFLCAncicpIGFzIGY6CiAgICAgICAgYXBpX2tleSA9IGYucmVhZCgpLnN0cmlwKCkKICAgIHdpdGggb3BlbihBUElfU0VDUkVUX0ZJTEUsICdyJykgYXMgZjoKICAgICAgICBhcGlfc2VjcmV0ID0gZi5yZWFkKCkuc3RyaXAoKQogICAgcmV0dXJuIGFwaV9rZXksIGFwaV9zZWNyZXQKCmRlZiBfYnVpbGRfand0KHVyaSwgYXBpX2tleSwgYXBpX3NlY3JldCk6CiAgICAiIiJCdWlsZCBKV1QgdG9rZW4gZm9yIGF1dGhlbnRpY2F0aW9uIiIiCiAgICBwcml2YXRlX2tleV9ieXRlcyA9IGFwaV9zZWNyZXQuZW5jb2RlKCd1dGYtOCcpCiAgICBwcml2YXRlX2tleSA9IHNlcmlhbGl6YXRpb24ubG9hZF9wZW1fcHJpdmF0ZV9rZXkocHJpdmF0ZV9rZXlfYnl0ZXMsIHBhc3N3b3JkPU5vbmUpCiAgICBqd3RfcGF5bG9hZCA9IHsKICAgICAgICAnc3ViJzogYXBpX2tleSwKICAgICAgICAnaXNzJzogImNkcCIsCiAgICAgICAgJ25iZic6IGludCh0aW1lLnRpbWUoKSksCiAgICAgICAgJ2V4cCc6IGludCh0aW1lLnRpbWUoKSkgKyAxMjAsCiAgICAgICAgJ3VyaSc6IHVyaSwKICAgIH0KICAgIGp3dF90b2tlbiA9IGp3dC5lbmNvZGUoCiAgICAgICAgand0X3BheWxvYWQsCiAgICAgICAgcHJpdmF0ZV9rZXksCiAgICAgICAgYWxnb3JpdGhtPSdFUzI1NicsCiAgICAgICAgaGVhZGVycz17J2tpZCc6IGFwaV9rZXksICdub25jZSc6IHNlY3JldHMudG9rZW5faGV4KCl9LAogICAgKQogICAgcmV0dXJuIGp3dF90b2tlbgoKZGVmIF9tYWtlX3JlcXVlc3QobWV0aG9kLCBwYXRoLCBib2R5PU5vbmUpOgogICAgIiIiTWFrZSBhdXRoZW50aWNhdGVkIHJlcXVlc3QgdG8gQ29pbmJhc2UgQVBJIiIiCiAgICBhcGlfa2V5LCBhcGlfc2VjcmV0ID0gX2xvYWRfY3JlZGVudGlhbHMoKQogICAgdXJpID0gZiJ7bWV0aG9kfSB7QkFTRV9VUkx9e3BhdGh9IgogICAgand0X3Rva2VuID0gX2J1aWxkX2p3dCh1cmksIGFwaV9rZXksIGFwaV9zZWNyZXQpCiAgICAKICAgIGltcG9ydCB1cmxsaWIucmVxdWVzdAogICAgCiAgICB1cmwgPSBmImh0dHBzOi8ve0JBU0VfVVJMfXtwYXRofSIKICAgIGlmIG1ldGhvZCA9PSAiR0VUIjoKICAgICAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHVybCkKICAgIGVsc2U6CiAgICAgICAgcmVxID0gdXJsbGliLnJlcXVlc3QuUmVxdWVzdCh1cmwsIGRhdGE9Ym9keS5lbmNvZGUoKSBpZiBib2R5IGVsc2UgTm9uZSwgbWV0aG9kPW1ldGhvZCkKICAgIAogICAgcmVxLmFkZF9oZWFkZXIoJ0F1dGhvcml6YXRpb24nLCBmJ0JlYXJlciB7and0X3Rva2VufScpCiAgICByZXEuYWRkX2hlYWRlcignQ29udGVudC1UeXBlJywgJ2FwcGxpY2F0aW9uL2pzb24nKQogICAgCiAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxKSBhcyByZXNwb25zZToKICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhyZXNwb25zZS5yZWFkKCkuZGVjb2RlKCkpCgpkZWYgZ2V0X2FjY291bnRzKCk6CiAgICAiIiJHZXQgYWxsIGFjY291bnRzIiIiCiAgICByZXR1cm4gX21ha2VfcmVxdWVzdCgiR0VUIiwgIi9hcGkvdjMvYnJva2VyYWdlL2FjY291bnRzIikKCmRlZiBnZXRfYWNjb3VudChjdXJyZW5jeSk6CiAgICAiIiJHZXQgc3BlY2lmaWMgYWNjb3VudCBieSBjdXJyZW5jeSIiIgogICAgYWNjb3VudHMgPSBnZXRfYWNjb3VudHMoKQogICAgZm9yIGFjY291bnQgaW4gYWNjb3VudHMuZ2V0KCdhY2NvdW50cycsIFtdKToKICAgICAgICBpZiBhY2NvdW50WydjdXJyZW5jeSddID09IGN1cnJlbmN5OgogICAgICAgICAgICByZXR1cm4gYWNjb3VudAogICAgcmV0dXJuIE5vbmUKCmRlZiBnZXRfYmFsYW5jZShjdXJyZW5jeSk6CiAgICAiIiJHZXQgYmFsYW5jZSBmb3IgYSBzcGVjaWZpYyBjdXJyZW5jeSIiIgogICAgYWNjb3VudCA9IGdldF9hY2NvdW50KGN1cnJlbmN5KQogICAgaWYgYWNjb3VudDoKICAgICAgICByZXR1cm4gYWNjb3VudFsnYXZhaWxhYmxlX2JhbGFuY2UnXVsndmFsdWUnXQogICAgcmV0dXJuIE5vbmUKCmRlZiBnZXRfZXVyb19iYWxhbmNlKCk6CiAgICAiIiJHZXQgRVVSIGJhbGFuY2UiIiIKICAgIHJldHVybiBnZXRfYmFsYW5jZSgnRVVSJykKCmRlZiBnZXRfYnRjX2JhbGFuY2UoKToKICAgICIiIkdldCBCVEMgYmFsYW5jZSIiIgogICAgcmV0dXJuIGdldF9iYWxhbmNlKCdCVEMnKQoKZGVmIGdldF9hbGxfYmFsYW5jZXMoKToKICAgICIiIkdldCBhbGwgYWNjb3VudCBiYWxhbmNlcyIiIgogICAgYWNjb3VudHMgPSBnZXRfYWNjb3VudHMoKQogICAgYmFsYW5jZXMgPSB7fQogICAgZm9yIGFjY291bnQgaW4gYWNjb3VudHMuZ2V0KCdhY2NvdW50cycsIFtdKToKICAgICAgICBiYWxhbmNlc1thY2NvdW50WydjdXJyZW5jeSddXSA9IGFjY291bnRbJ2F2YWlsYWJsZV9iYWxhbmNlJ11bJ3ZhbHVlJ10KICAgIHJldHVybiBiYWxhbmNlcwoKZGVmIGdldF9wcm9kdWN0cygpOgogICAgIiIiR2V0IGF2YWlsYWJsZSB0cmFkaW5nIHByb2R1Y3RzIiIiCiAgICByZXR1cm4gX21ha2VfcmVxdWVzdCgiR0VUIiwgIi9hcGkvdjMvYnJva2VyYWdlL3Byb2R1Y3RzIikKCmRlZiBnZXRfcHJvZHVjdChwcm9kdWN0X2lkKToKICAgICIiIkdldCBzcGVjaWZpYyBwcm9kdWN0IGRldGFpbHMiIiIKICAgIHJldHVybiBfbWFrZV9yZXF1ZXN0KCJHRVQiLCBmIi9hcGkvdjMvYnJva2VyYWdlL3Byb2R1Y3RzL3twcm9kdWN0X2lkfSIpCgpkZWYgZ2V0X3Byb2R1Y3RfYm9vayhwcm9kdWN0X2lkKToKICAgICIiIkdldCBvcmRlciBib29rIGZvciBhIHByb2R1Y3QiIiIKICAgIHJldHVybiBfbWFrZV9yZXF1ZXN0KCJHRVQiLCBmIi9hcGkvdjMvYnJva2VyYWdlL3Byb2R1Y3RzL3twcm9kdWN0X2lkfS90aWNrZXIiKQoKZGVmIGdldF9ldXJfcHJvZHVjdHMoKToKICAgICIiIkdldCBhbGwgRVVSIHRyYWRpbmcgcGFpcnMiIiIKICAgIHByb2R1Y3RzID0gZ2V0X3Byb2R1Y3RzKCkKICAgIGV1cl9wcm9kdWN0cyA9IFtdCiAgICBmb3IgcCBpbiBwcm9kdWN0cy5nZXQoJ3Byb2R1Y3RzJywgW10pOgogICAgICAgIGlmICdFVVInIGluIHAuZ2V0KCdwcm9kdWN0X2lkJywgJycpOgogICAgICAgICAgICBldXJfcHJvZHVjdHMuYXBwZW5kKHApCiAgICByZXR1cm4gZXVyX3Byb2R1Y3RzCgpkZWYgY3JlYXRlX29yZGVyKHByb2R1Y3RfaWQsIHNpZGUsIHNpemUsIHByaWNlPU5vbmUsIG9yZGVyX3R5cGU9Ik1BUktFVCIpOgogICAgIiIiQ3JlYXRlIGFuIG9yZGVyCiAgICAKICAgIEFyZ3M6CiAgICAgICAgcHJvZHVjdF9pZDogVHJhZGluZyBwYWlyIChlLmcuLCAnQlRDLUVVUicpCiAgICAgICAgc2lkZTogJ0JVWScgb3IgJ1NFTEwnCiAgICAgICAgc2l6ZTogQW1vdW50IHRvIHRyYWRlIChpbiBiYXNlIGN1cnJlbmN5LCBlLmcuLCBCVEMgYW1vdW50KQogICAgICAgIHByaWNlOiBMaW1pdCBwcmljZSAob3B0aW9uYWwsIGZvciBMSU1JVCBvcmRlcnMpCiAgICAgICAgb3JkZXJfdHlwZTogJ01BUktFVCcgb3IgJ0xJTUlUJwogICAgIiIiCiAgICBpbXBvcnQgdGltZQogICAgaW1wb3J0IHNlY3JldHMKICAgIAogICAgY2xpZW50X29yZGVyX2lkID0gZiJrbGFyYS17aW50KHRpbWUudGltZSgpKX0te3NlY3JldHMudG9rZW5faGV4KDQpfSIKICAgIAogICAgaWYgb3JkZXJfdHlwZSA9PSAiTUFSS0VUIjoKICAgICAgICAjIFVzZSBJT0MgKEltbWVkaWF0ZSBvciBDYW5jZWwpIG1hcmtldCBvcmRlcgogICAgICAgIG9yZGVyX2NvbmZpZyA9IHsKICAgICAgICAgICAgIm1hcmtldF9tYXJrZXRfaW9jIjogewogICAgICAgICAgICAgICAgImJhc2Vfc2l6ZSI6IHN0cihzaXplKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgZWxzZToKICAgICAgICAjIExpbWl0IG9yZGVyIChHVEMgLSBHb29kIFRpbGwgQ2FuY2VsKQogICAgICAgIG9yZGVyX2NvbmZpZyA9IHsKICAgICAgICAgICAgImxpbWl0X2xpbWl0X2d0YyI6IHsKICAgICAgICAgICAgICAgICJiYXNlX3NpemUiOiBzdHIoc2l6ZSksCiAgICAgICAgICAgICAgICAibGltaXRfcHJpY2UiOiBzdHIocHJpY2UpIGlmIHByaWNlIGVsc2UgTm9uZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgCiAgICBib2R5ID0gewogICAgICAgICJjbGllbnRfb3JkZXJfaWQiOiBjbGllbnRfb3JkZXJfaWQsCiAgICAgICAgInByb2R1Y3RfaWQiOiBwcm9kdWN0X2lkLAogICAgICAgICJzaWRlIjogc2lkZS51cHBlcigpLAogICAgICAgICJvcmRlcl9jb25maWd1cmF0aW9uIjogb3JkZXJfY29uZmlnCiAgICB9CiAgICAKICAgIHJldHVybiBfbWFrZV9yZXF1ZXN0KCJQT1NUIiwgIi9hcGkvdjMvYnJva2VyYWdlL29yZGVycyIsIGpzb24uZHVtcHMoYm9keSkpCgpkZWYgZ2V0X29yZGVycygpOgogICAgIiIiR2V0IGFsbCBvcmRlcnMiIiIKICAgIHJldHVybiBfbWFrZV9yZXF1ZXN0KCJHRVQiLCAiL2FwaS92My9icm9rZXJhZ2Uvb3JkZXJzL2hpc3RvcmljYWwvYmF0Y2giKQoKZGVmIGdldF9maWxscyhwcm9kdWN0X2lkPU5vbmUpOgogICAgIiIiR2V0IHJlY2VudCBmaWxscyAodHJhZGVzKSIiIgogICAgcGF0aCA9ICIvYXBpL3YzL2Jyb2tlcmFnZS9vcmRlcnMvaGlzdG9yaWNhbC9maWxscyIKICAgIGlmIHByb2R1Y3RfaWQ6CiAgICAgICAgcGF0aCArPSBmIj9wcm9kdWN0X2lkPXtwcm9kdWN0X2lkfSIKICAgIHJldHVybiBfbWFrZV9yZXF1ZXN0KCJHRVQiLCBwYXRoKQoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgICMgVGVzdAogICAgcHJpbnQoIkFjY291bnRzOiIsIGdldF9hY2NvdW50cygpKQ==
+# Klara's Coinbase API Helper
+# Uses Coinbase App API (CDP) with JWT authentication
+
+import jwt
+from cryptography.hazmat.primitives import serialization
+import time
+import secrets
+import json
+import os
+
+# Configuration
+API_KEY_FILE = os.path.join(os.path.dirname(__file__), '.coinbase-api-key')
+API_SECRET_FILE = os.path.join(os.path.dirname(__file__), '.coinbase-api-secret')
+BASE_URL = "api.coinbase.com"
+
+def _load_credentials():
+    """Load API credentials from files"""
+    with open(API_KEY_FILE, 'r') as f:
+        api_key = f.read().strip()
+    with open(API_SECRET_FILE, 'r') as f:
+        api_secret = f.read().strip()
+    return api_key, api_secret
+
+def _build_jwt(uri, api_key, api_secret):
+    """Build JWT token for authentication"""
+    private_key_bytes = api_secret.encode('utf-8')
+    private_key = serialization.load_pem_private_key(private_key_bytes, password=None)
+    jwt_payload = {
+        'sub': api_key,
+        'iss': "cdp",
+        'nbf': int(time.time()),
+        'exp': int(time.time()) + 120,
+        'uri': uri,
+    }
+    jwt_token = jwt.encode(
+        jwt_payload,
+        private_key,
+        algorithm='ES256',
+        headers={'kid': api_key, 'nonce': secrets.token_hex()},
+    )
+    return jwt_token
+
+def _make_request(method, path, body=None):
+    """Make authenticated request to Coinbase API"""
+    api_key, api_secret = _load_credentials()
+    uri = f"{method} {BASE_URL}{path}"
+    jwt_token = _build_jwt(uri, api_key, api_secret)
+    
+    import urllib.request
+    
+    url = f"https://{BASE_URL}{path}"
+    if method == "GET":
+        req = urllib.request.Request(url)
+    else:
+        req = urllib.request.Request(url, data=body.encode() if body else None, method=method)
+    
+    req.add_header('Authorization', f'Bearer {jwt_token}')
+    req.add_header('Content-Type', 'application/json')
+    
+    with urllib.request.urlopen(req) as response:
+        return json.loads(response.read().decode())
+
+def get_accounts():
+    """Get all accounts"""
+    return _make_request("GET", "/api/v3/brokerage/accounts")
+
+def get_account(currency):
+    """Get specific account by currency"""
+    accounts = get_accounts()
+    for account in accounts.get('accounts', []):
+        if account['currency'] == currency:
+            return account
+    return None
+
+def get_balance(currency):
+    """Get balance for a specific currency"""
+    account = get_account(currency)
+    if account:
+        return account['available_balance']['value']
+    return None
+
+def get_euro_balance():
+    """Get EUR balance"""
+    return get_balance('EUR')
+
+def get_btc_balance():
+    """Get BTC balance"""
+    return get_balance('BTC')
+
+def get_all_balances():
+    """Get all account balances"""
+    accounts = get_accounts()
+    balances = {}
+    for account in accounts.get('accounts', []):
+        balances[account['currency']] = account['available_balance']['value']
+    return balances
+
+def get_products():
+    """Get available trading products"""
+    return _make_request("GET", "/api/v3/brokerage/products")
+
+def get_product(product_id):
+    """Get specific product details"""
+    return _make_request("GET", f"/api/v3/brokerage/products/{product_id}")
+
+def get_product_book(product_id):
+    """Get order book for a product"""
+    return _make_request("GET", f"/api/v3/brokerage/products/{product_id}/ticker")
+
+def get_eur_products():
+    """Get all EUR trading pairs"""
+    products = get_products()
+    eur_products = []
+    for p in products.get('products', []):
+        if 'EUR' in p.get('product_id', ''):
+            eur_products.append(p)
+    return eur_products
+
+def create_order(product_id, side, size, price=None, order_type="MARKET"):
+    """Create an order
+    
+    Args:
+        product_id: Trading pair (e.g., 'BTC-EUR')
+        side: 'BUY' or 'SELL'
+        size: Amount to trade (in base currency, e.g., BTC amount)
+        price: Limit price (optional, for LIMIT orders)
+        order_type: 'MARKET' or 'LIMIT'
+    """
+    import time
+    import secrets
+    
+    client_order_id = f"klara-{int(time.time())}-{secrets.token_hex(4)}"
+    
+    if order_type == "MARKET":
+        # Use IOC (Immediate or Cancel) market order
+        order_config = {
+            "market_market_ioc": {
+                "base_size": str(size)
+            }
+        }
+    else:
+        # Limit order (GTC - Good Till Cancel)
+        order_config = {
+            "limit_limit_gtc": {
+                "base_size": str(size),
+                "limit_price": str(price) if price else None
+            }
+        }
+    
+    body = {
+        "client_order_id": client_order_id,
+        "product_id": product_id,
+        "side": side.upper(),
+        "order_configuration": order_config
+    }
+    
+    return _make_request("POST", "/api/v3/brokerage/orders", json.dumps(body))
+
+def get_orders():
+    """Get all orders"""
+    return _make_request("GET", "/api/v3/brokerage/orders/historical/batch")
+
+def get_fills(product_id=None):
+    """Get recent fills (trades)"""
+    path = "/api/v3/brokerage/orders/historical/fills"
+    if product_id:
+        path += f"?product_id={product_id}"
+    return _make_request("GET", path)
+
+if __name__ == "__main__":
+    # Test
+    print("Accounts:", get_accounts())

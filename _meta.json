@@ -1,1 +1,8 @@
-ewogICJvd25lcklkIjogIllPVVJfT1dORVJfSUQiLAogICJzbHVnIjogImNvaW5iYXNlIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgInB1Ymxpc2hlZEF0IjogbnVsbCwKICAiZGVzY3JpcHRpb24iOiAiQ29pbmJhc2UgQVBJIGludGVncmF0aW9uIGZvciBjcnlwdG8gdHJhZGluZyBhZ2VudHMiLAogICJ0YWdzIjogWyJjcnlwdG8iLCAidHJhZGluZyIsICJjb2luYmFzZSIsICJhcGkiXQp9Cg==
+{
+  "ownerId": "YOUR_OWNER_ID",
+  "slug": "coinbase",
+  "version": "1.0.0",
+  "publishedAt": null,
+  "description": "Coinbase API integration for crypto trading agents",
+  "tags": ["crypto", "trading", "coinbase", "api"]
+}

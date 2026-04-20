@@ -1,1 +1,71 @@
-IyBPcGVuQ2xhdyBDb2luYmFzZSBTa2lsbAoKQ29pbmJhc2UgQVBJIGludGVncmF0aW9uIGZvciBPcGVuQ2xhdyB0cmFkaW5nIGFnZW50cy4KCiMjIE92ZXJ2aWV3CgpUaGlzIHNraWxsIHByb3ZpZGVzIFB5dGhvbiBiaW5kaW5ncyBmb3IgdGhlIENvaW5iYXNlIHRyYWRpbmcgQVBJLCBlbmFibGluZyBhZ2VudHMgdG86Ci0gQ2hlY2sgYWNjb3VudCBiYWxhbmNlcwotIFZpZXcgdHJhZGluZyBwcm9kdWN0cwotIFBsYWNlIG9yZGVycyAobWFya2V0IGFuZCBsaW1pdCkKLSBBY2Nlc3Mgb3JkZXIgaGlzdG9yeQoKIyMgSW5zdGFsbGF0aW9uCgojIyMgMS4gSW5zdGFsbCBEZXBlbmRlbmNpZXMKCmBgYGJhc2gKcGlwIGluc3RhbGwgY3J5cHRvZ3JhcGh5IFB5SldUCmBgYAoKIyMjIDIuIENvbmZpZ3VyZSBBUEkgS2V5cwoKQ3JlYXRlIGEgYC5jb2luYmFzZS1hcGkta2V5YCBmaWxlIHdpdGggeW91ciBBUEkga2V5OgpgYGAKeW91ci1hcGkta2V5LWhlcmUKYGBgCgpDcmVhdGUgYSBgLmNvaW5iYXNlLWFwaS1zZWNyZXRgIGZpbGUgd2l0aCB5b3VyIHByaXZhdGUga2V5IChQRU0gZm9ybWF0KToKYGBgCi0tLS0tQkVHSU4gUFJJVkFURSBLRVktLS0tLQp5b3VyLXByaXZhdGUta2V5LWhlcmUKLS0tLS1FTkQgUFJJVkFURSBLRVktLS0tLQpgYGAKCiMjIyAzLiBHZXQgQVBJIEtleXMKCjEuIEdvIHRvIFtDb2luYmFzZSBEZXZlbG9wZXIgUGxhdGZvcm1dKGh0dHBzOi8vcG9ydGFsLmNkcC5jb2luYmFzZS5jb20pCjIuIENyZWF0ZSBhIG5ldyBBcHAKMy4gR2VuZXJhdGUgQVBJIGNyZWRlbnRpYWxzCjQuIENvcHkgdGhlIGtleSBhbmQgc2VjcmV0IHRvIHRoZSBmaWxlcyBhYm92ZQoKIyMgVXNhZ2UKCmBgYHB5dGhvbgpmcm9tIHNjcmlwdHMuY29pbmJhc2UgaW1wb3J0IGdldF9hbGxfYmFsYW5jZXMsIGNyZWF0ZV9vcmRlciwgZ2V0X2ZpbGxzCgojIENoZWNrIGJhbGFuY2VzCmJhbGFuY2VzID0gZ2V0X2FsbF9iYWxhbmNlcygpCnByaW50KGYiRVVSOiB7YmFsYW5jZXMuZ2V0KCdFVVInKX0iKQpwcmludChmIkJUQzoge2JhbGFuY2VzLmdldCgnQlRDJyl9IikKCiMgUGxhY2UgYW4gb3JkZXIKb3JkZXIgPSBjcmVhdGVfb3JkZXIoCiAgICBwcm9kdWN0X2lkPSdCVEMtRVVSJywKICAgIHNpZGU9J0JVWScsCiAgICBzaXplPScwLjAwMScKKQoKIyBHZXQgdHJhZGUgaGlzdG9yeQpmaWxscyA9IGdldF9maWxscygpCmBgYAoKIyMgUmVxdWlyZW1lbnRzCgotIFB5dGhvbiAzLjcrCi0gY3J5cHRvZ3JhcGh5Ci0gUHlKV1QKCiMjIExpY2Vuc2UKCk1JVA==
+# OpenClaw Coinbase Skill
+
+Coinbase API integration for OpenClaw trading agents.
+
+## Overview
+
+This skill provides Python bindings for the Coinbase trading API, enabling agents to:
+- Check account balances
+- View trading products
+- Place orders (market and limit)
+- Access order history
+
+## Installation
+
+### 1. Install Dependencies
+
+```bash
+pip install cryptography PyJWT
+```
+
+### 2. Configure API Keys
+
+Create a `.coinbase-api-key` file with your API key:
+```
+your-api-key-here
+```
+
+Create a `.coinbase-api-secret` file with your private key (PEM format):
+```
+-----BEGIN PRIVATE KEY-----
+your-private-key-here
+-----END PRIVATE KEY-----
+```
+
+### 3. Get API Keys
+
+1. Go to [Coinbase Developer Platform](https://portal.cdp.coinbase.com)
+2. Create a new App
+3. Generate API credentials
+4. Copy the key and secret to the files above
+
+## Usage
+
+```python
+from scripts.coinbase import get_all_balances, create_order, get_fills
+
+# Check balances
+balances = get_all_balances()
+print(f"EUR: {balances.get('EUR')}")
+print(f"BTC: {balances.get('BTC')}")
+
+# Place an order
+order = create_order(
+    product_id='BTC-EUR',
+    side='BUY',
+    size='0.001'
+)
+
+# Get trade history
+fills = get_fills()
+```
+
+## Requirements
+
+- Python 3.7+
+- cryptography
+- PyJWT
+
+## License
+
+MIT

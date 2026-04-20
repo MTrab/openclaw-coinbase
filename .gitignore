@@ -1,1 +1,6 @@
-IyBBUEkgS2V5cyAtIG5ldmVyIGNvbW1pdCB0aGVzZSEKLmNvaW5iYXNlLWFwaS1rZXkKLmNvaW5iYXNlLWFwaS1zZWNyZXQKX19weWNhY2hlX18vCioucHljCioucHlvCg==
+# API Keys - never commit these!
+.coinbase-api-key
+.coinbase-api-secret
+__pycache__/
+*.pyc
+*.pyo

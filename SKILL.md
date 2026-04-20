@@ -1,1 +1,92 @@
-IyBDb2luYmFzZSBTa2lsbAoKVGhpcyBza2lsbCBwcm92aWRlcyBhY2Nlc3MgdG8gQ29pbmJhc2UgdHJhZGluZyBBUEkgZm9yIGNyeXB0byB0cmFkaW5nIGFnZW50cy4KCiMjIEZlYXR1cmVzCgotIEZldGNoIGFjY291bnQgYmFsYW5jZXMgKEVVUiwgQlRDLCBldGMuKQotIEdldCB0cmFkaW5nIHByb2R1Y3RzIChFVVIgcGFpcnMpCi0gQ3JlYXRlIG1hcmtldCBhbmQgbGltaXQgb3JkZXJzCi0gVmlldyBvcmRlciBoaXN0b3J5IGFuZCBmaWxscwoKIyMgVXNhZ2UKCiMjIyBHZXQgQmFsYW5jZXMKYGBgcHl0aG9uCmZyb20gc2NyaXB0cy5jb2luYmFzZSBpbXBvcnQgZ2V0X2V1cm9fYmFsYW5jZSwgZ2V0X2J0Y19iYWxhbmNlLCBnZXRfYWxsX2JhbGFuY2VzCgpldXIgPSBnZXRfZXVyb19iYWxhbmNlKCkKYnRjID0gZ2V0X2J0Y19iYWxhbmNlKCkKYWxsX2JhbGFuY2VzID0gZ2V0X2FsbF9iYWxhbmNlcygpCmBgYAoKIyMjIEdldCBQcm9kdWN0cwpgYGBweXRob24KZnJvbSBzY3JpcHRzLmNvaW5iYXNlIGltcG9ydCBnZXRfZXVyX3Byb2R1Y3RzLCBnZXRfcHJvZHVjdAoKIyBBbGwgRVVSIHRyYWRpbmcgcGFpcnMKcHJvZHVjdHMgPSBnZXRfZXVyX3Byb2R1Y3RzKCkKCiMgU3BlY2lmaWMgcHJvZHVjdApidGNfZXVyID0gZ2V0X3Byb2R1Y3QoJ0JUQy1FVVInKQpgYGAKCiMjIyBDcmVhdGUgT3JkZXJzCmBgYHB5dGhvbgpmcm9tIHNjcmlwdHMuY29pbmJhc2UgaW1wb3J0IGNyZWF0ZV9vcmRlcgoKIyBNYXJrZXQgYnV5IG9yZGVyCnJlc3VsdCA9IGNyZWF0ZV9vcmRlcigKICAgIHByb2R1Y3RfaWQ9J0JUQy1FVVInLAogICAgc2lkZT0nQlVZJywKICAgIHNpemU9JzAuMDAxJyAgIyBBbW91bnQgaW4gYmFzZSBjdXJyZW5jeQopCgojIExpbWl0IG9yZGVyCnJlc3VsdCA9IGNyZWF0ZV9vcmRlcigKICAgIHByb2R1Y3RfaWQ9J0JUQy1FVVInLAogICAgc2lkZT0nQlVZJywKICAgIHNpemU9JzAuMDAxJywKICAgIHByaWNlPSc0NTAwMCcsICAjIExpbWl0IHByaWNlCiAgICBvcmRlcl90eXBlPSdMSU1JVCcKKQpgYGAKCiMjIyBPcmRlciBIaXN0b3J5CmBgYHB5dGhvbgpmcm9tIHNjcmlwdHMuY29pbmJhc2UgaW1wb3J0IGdldF9maWxscywgZ2V0X29yZGVycwoKIyBSZWNlbnQgdHJhZGVzCmZpbGxzID0gZ2V0X2ZpbGxzKCkKCiMgU3BlY2lmaWMgcHJvZHVjdApmaWxsc19idGMgPSBnZXRfZmlsbHMocHJvZHVjdF9pZD0nQlRDLUVVUicpCgojIE9yZGVyIGhpc3RvcnkKb3JkZXJzID0gZ2V0X29yZGVycygpCmBgYAoKIyMgSW5zdGFsbGF0aW9uCgojIyMgUmVxdWlyZW1lbnRzCi0gQ29pbmJhc2UgQVBJIGtleXMgKENEUCBBcHApCi0gUHl0aG9uIDMgd2l0aCBjcnlwdG9ncmFwaHkgcGFja2FnZQoKIyMjIFNldHVwCkNyZWF0ZSB0aGVzZSBmaWxlcyBpbiB0aGUgc2FtZSBkaXJlY3RvcnkgYXMgdGhlIHNjcmlwdDoKCmBgYAouY29pbmJhc2UtYXBpLWtleSAgICAgIyBZb3VyIEFQSSBrZXkKLmNvaW5iYXNlLWFwaS1zZWNyZXQgICMgWW91ciBwcml2YXRlIGtleSAoUEVNIGZvcm1hdCkKYGBgCgojIyMgR2V0IEFQSSBLZXlzCjEuIEdvIHRvIFtDb2luYmFzZSBEZXZlbG9wZXIgUGxhdGZvcm1dKGh0dHBzOi8vcG9ydGFsLmNkcC5jb2luYmFzZS5jb20pCjIuIENyZWF0ZSBhIG5ldyBBcHAKMy4gQ29weSBBUEkga2V5IGFuZCBwcml2YXRlIGtleSB0byB0aGUgZmlsZXMKCiMjIE5vdGVzCgotIEFsbCB0cmFkZXMgYXJlIGluIEVVUiBwYWlycwotIFVzZSBgc2lkZT0nQlVZJ2Agb3IgYHNpZGU9J1NFTEwnYAotIGBzaXplYCBpcyBpbiBiYXNlIGN1cnJlbmN5IChlLmcuLCBCVEMsIG5vdCBFVVIp
+# Coinbase Skill
+
+This skill provides access to Coinbase trading API for crypto trading agents.
+
+## Features
+
+- Fetch account balances (EUR, BTC, etc.)
+- Get trading products (EUR pairs)
+- Create market and limit orders
+- View order history and fills
+
+## Usage
+
+### Get Balances
+```python
+from scripts.coinbase import get_euro_balance, get_btc_balance, get_all_balances
+
+eur = get_euro_balance()
+btc = get_btc_balance()
+all_balances = get_all_balances()
+```
+
+### Get Products
+```python
+from scripts.coinbase import get_eur_products, get_product
+
+# All EUR trading pairs
+products = get_eur_products()
+
+# Specific product
+btc_eur = get_product('BTC-EUR')
+```
+
+### Create Orders
+```python
+from scripts.coinbase import create_order
+
+# Market buy order
+result = create_order(
+    product_id='BTC-EUR',
+    side='BUY',
+    size='0.001'  # Amount in base currency
+)
+
+# Limit order
+result = create_order(
+    product_id='BTC-EUR',
+    side='BUY',
+    size='0.001',
+    price='45000',  # Limit price
+    order_type='LIMIT'
+)
+```
+
+### Order History
+```python
+from scripts.coinbase import get_fills, get_orders
+
+# Recent trades
+fills = get_fills()
+
+# Specific product
+fills_btc = get_fills(product_id='BTC-EUR')
+
+# Order history
+orders = get_orders()
+```
+
+## Installation
+
+### Requirements
+- Coinbase API keys (CDP App)
+- Python 3 with cryptography package
+
+### Setup
+Create these files in the same directory as the script:
+
+```
+.coinbase-api-key     # Your API key
+.coinbase-api-secret  # Your private key (PEM format)
+```
+
+### Get API Keys
+1. Go to [Coinbase Developer Platform](https://portal.cdp.coinbase.com)
+2. Create a new App
+3. Copy API key and private key to the files
+
+## Notes
+
+- All trades are in EUR pairs
+- Use `side='BUY'` or `side='SELL'`
+- `size` is in base currency (e.g., BTC, not EUR)
